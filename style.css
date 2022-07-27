@@ -2,13 +2,13 @@
 
 :root{
     --background-color: rgb(53, 87, 100);
-    --custom-color: rgb(87, 81, 81);
+    --custom-color: rgb(129, 202, 207);
     --padding: 15px;
-    --medium-font-size: 1.2em;
+    --medium-font-size: 1.1em;
     --large-font-size: 2.5em;
     --input-padding: 15px 25px;
     --border-radius: 8px;
-    --margin-top: 5px;
+    --margin-top: 10px;
     --margin-bottom: 15px;
     --border: 1px solid rgb(197, 212, 221);
     --misc-color: steelblue;
@@ -62,9 +62,15 @@ body{
     margin-top: var(--margin-top);
     margin-bottom: var(--margin-bottom);
 }
+.form_group-label1{
+    color: var(--custom-color);
+    font-size: var(--medium-font-size);
+    margin-bottom:20px ;    
+}
 .form_group-label{
     color: var(--custom-color);
-    font-size: var(--medium-font-size);    
+    font-size: var(--medium-font-size);
+      
 }
 
 #text {
@@ -77,6 +83,7 @@ textarea, input{
     padding: var(--input-padding);
     border-radius: var(--border-radius);
     border: var(--border);
+    font-size: large;
 }
 textarea, input::placeholder{
     font-size: large;
